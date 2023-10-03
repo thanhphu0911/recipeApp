@@ -33,15 +33,28 @@ html {
   --secondary-clr: #161616;
   --secondary-rgba-3: rgba(0, 0, 0, 0.3);
 }
+a > img {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  color: var(--primary-clr);
+}
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
-nav > button {
+
+.btn-container > button {
   margin-top: 0;
 }
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   position: relative;
 }
