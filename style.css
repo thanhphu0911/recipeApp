@@ -265,7 +265,7 @@ button:hover {
 .fav-meals-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   column-gap: 1rem;
   width: auto;
   height: 90%;
@@ -302,11 +302,9 @@ button:hover {
 }
 
 .fav-meals {
-  display: flex;
-  align-items: center;
-  column-gap: 1rem;
+  padding: 0.5rem;
   width: auto;
-  overflow-x: scroll;
+  overflow-x: auto;
   padding: 0.5rem;
   padding-bottom: 1rem;
 }
