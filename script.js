@@ -35,6 +35,7 @@ searchFormEl.addEventListener("submit", (e) => {
   shownItems = 24;
   fetchAPI(searchQuery);
 });
+
 showMoreBtnEl.addEventListener("click", () => {
   shownItems += 24;
   fetchAPI(searchQuery);
@@ -59,6 +60,7 @@ async function fetchMealByID(id) {
 function generateHTML(results) {
   containerEl.classList.remove("initial");
   showMoreBtnEl.classList.remove("hidden");
+  searchResultEl.textContent = "";
   results.map((result) => {
     const meal_card = document.createElement("div");
     const mealTypeStr = `${result.recipe.mealType}`;
