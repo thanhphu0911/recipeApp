@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/56dba99a1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
+  <body>
+    <nav>
+      <button class="show-modal">Your Favorites</button>
+      <span class="light-dark-mode">
+        <i class="fa-sharp fa-solid fa-sun"></i>
+      </span>
+    </nav>
+    <section>
+      <div class="container initial">
+        <h1 class="brand">Tell me your desired dish</h1>
+        <form>
+          <input type="text" placeholder="Search Your Recipe..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="search-result">
+          <div class="item hidden">
+            <img src="" alt="" />
+            <div class="flex-container">
+              <h1 class="title">#</h1>
+              <a
+                class="viewBtn"
+                href="${
+                result.recipe.url
+              }"
+                target="_blank"
+                >#</a
+              >
+            </div>
+            <p class="item-data">#</p>
+            <p class="item-data">#</p>
+            <p class="item-data">#</p>
+            <div class="heart-containers">
+              <p class="item-data">#</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="showMoreBtn hidden">Show More</button>
+    </section>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Favorite Meals 😍</h2>
+      <div class="fav-meals-container"></div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
