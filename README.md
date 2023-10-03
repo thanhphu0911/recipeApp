@@ -1,6 +1,6 @@
 # Frontend Mentor - Results summary component
 
-![Design preview for the Results summary component coding challenge](./design/self-design.png)
+![Design preview for the Results summary component coding challenge](./imgs/logo.png)
 
 ## Welcome! 👋
 
