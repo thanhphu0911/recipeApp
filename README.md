@@ -17,9 +17,7 @@ With this app you can explore recipes from your main ingredient, save recipes to
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Deploying Sites](#deploying_projects)
 
 ## Overview
 
