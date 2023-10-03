@@ -58,7 +58,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://recipeapp-phu.netlify.app/)
+- Live Site URL: [Live site URL here](https://recipeapp-phu.netlify.app/)
 
 ## My process
 
