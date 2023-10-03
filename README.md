@@ -1,30 +1,46 @@
-# Frontend Mentor - Results summary component
+# Recipe App
 
 ![Design preview for the Results summary component coding challenge](./imgs/logo.png)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out this recipe app.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+With this app you can explore recipes from your main ingredient, save recipes to your favorite meals for later uses.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Table of contents
 
-## The challenge
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Your challenge is to build out this results summary component and get it looking as close to the design as possible.
+## Overview
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### The challenge
 
-We provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.
+Users should be able to:
 
-Your users should be able to:
+- Find recipes based on what their input in the search bar
+- Save their favorite recipes and store them inside Favorite's tab for them to view later
+- Change the theme's color dynamically once the button is clicked.
+- Fetch more recipe when users want to find more recipe (if any).
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
+### Screenshot
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+#### Main page
+
+![](./imgs/main-page.png)
+
+#### Main page
+
+![](./imgs/find-recipe.png)
 
 ## Where to find everything
 
