@@ -65,7 +65,7 @@ Users should be able to:
 - HTML/CSS
 - Flexbox
 - CSS Grid
-- RESTful API (EDAMAM API)
+- REST API (EDAMAM API)
 - Local Storage
 
 ### What I learned
